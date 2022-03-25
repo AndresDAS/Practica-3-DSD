@@ -16,7 +16,7 @@
 #include <TFT_eSPI.h>
 #include <SPI.h>
 
-#define DHTPIN 27 // pin para los datos del sensor
+#define DHTPIN 27 // pin para los datos del sensor DHT
 #define DHTTYPE DHT11
 #define BUTTON_LEFT 0        // btn activo en bajo
 #define LONG_PRESS_TIME 3000 // 3000
