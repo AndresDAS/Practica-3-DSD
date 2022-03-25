@@ -27,9 +27,9 @@ const uint8_t LED2 = 33; // Pin used to write data based on 1's and 0's coming f
 const char *UBIDOTS_TOKEN = "BBFF-co4IS9ILXqSDZogZGTAC3DMUnyAt9s"; // Put here your Ubidots TOKEN
 const char *DEVICE_LABEL = "esp32";                                // Replace with the device label to subscribe to
 const char *VARIABLE_LABEL = "SW1";                                // Replace with your variable label to subscribe to
-const char *VARIABLE_LABEL2 = "SW2";
-const char *VARIABLE_LABEL3 = "temp";
-const char *VARIABLE_LABEL4 = "hum"; // Put here your Variable label to which data  will be published
+const char *VARIABLE_LABEL2 = "SW2";                               // Replace with your variable label to subscribe to
+const char *VARIABLE_LABEL3 = "temp";                              // Put here your Variable label to which data  will be published
+const char *VARIABLE_LABEL4 = "hum";                               // Put here your Variable label to which data  will be published
 
 char msg1[] = "/v2.0/devices/esp32/sw1/lv";
 char msg2[] = "/v2.0/devices/esp32/sw2/lv";
